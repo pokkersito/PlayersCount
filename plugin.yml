@@ -1,0 +1,15 @@
+name: PlayerCount
+author: Pokker77
+api: 5.0.0
+version: 0.0.1
+main: Pokker\Main
+
+commands:
+ players:
+  description: "Usalo para ver cuantos jugadores hay activos al momento"
+  usage: "/players"
+  permission: player.use
+permissions:
+  player.use:
+    default: true
+    description: Permission tag
